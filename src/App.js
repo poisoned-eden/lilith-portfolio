@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+// TODO replace this with my own logo
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
