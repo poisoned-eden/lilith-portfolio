@@ -1,5 +1,5 @@
 import React from 'react';
-import imgLil from '../../assets/images/Lilith-profile-pic.jpg' ;
+import imgLil from '../assets/images/Lilith-profile-pic.jpg' ;
 
 export default function AboutMe() {
     return (

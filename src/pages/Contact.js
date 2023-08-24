@@ -1,7 +1,7 @@
 import React from 'react';
-import emailLogo from '../../assets/images/email-logo.png';
-import phoneLogo from '../../assets/images/phone-call.png';
-import githubLogo from '../../assets/images/github-mark.png';
+import emailLogo from '../assets/images/email-logo.png';
+import phoneLogo from '../assets/images/phone-call.png';
+import githubLogo from '../assets/images/github-mark.png';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
