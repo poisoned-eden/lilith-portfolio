@@ -3,14 +3,15 @@ import Navbar from 'react-bootstrap/Navbar';
 // TODO replace this with my own logo
 // import logo from '../logo.svg';
 import Navigation from './Navigation';
+import Container from 'react-bootstrap/esm/Container';
 
 export default function Header() {
 	return (
 		<header>
-			<Navbar>
+			<Navbar fill> 
 				<Navbar.Brand as='h1'>Lilith Miller-Fermor</Navbar.Brand>
-				<Navigation />
-			</Navbar>
+										<Navigation />
+							</Navbar>
 		</header>
 	);
 }
