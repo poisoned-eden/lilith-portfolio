@@ -12,14 +12,9 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
 	// TODO use State to set light and dark mode
 
-	const handlePageChange = (page) => setCurrentPage(page);
-
 	return (
 		<Container>
-			<Header
-				currentPage={currentPage}
-				handlePageChange={handlePageChange}
-			/>
+			<Header />
 			<main>
 				<Routes>
 					<Route path='/' element={<AboutMe />} />
