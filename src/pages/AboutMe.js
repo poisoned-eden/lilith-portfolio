@@ -11,8 +11,8 @@ export default function AboutMe() {
 		<div class="article-heading">
 			<h2>About Me</h2>
 		</div>
-			<Row>
-				<Col md={6}>
+			<Row xs={1} lg={2}>
+				<Col>
 					<Image
 						src={imgLil}
 						alt="Photograph of Lilith engaged in conversation.  There is a castle in the background." 
@@ -20,7 +20,7 @@ export default function AboutMe() {
 						rounded
 					/>
 				</Col>
-				<Col sm={12} md={6}>
+				<Col>
 					<p>
 						Hi, I'm Lilith. I originally got into coding through working on a website at the Environmental Consultancy I worked at. I swiftly discovered I enjoyed it, and was given other interesting little projects and tools tobuild for the company, in various different languages and contexts such as Python for GIS, VBA for Excel, and SQL.
 					</p>
