@@ -1,42 +1,27 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import './App.css';
-import Container from "react-bootstrap/Container";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import AboutMe from "./pages/AboutMe"
-import Portfolio from "./pages/Portfolio"
-import Contact from "./pages/Contact"
-import CV from "./pages/CV"
+import Container from 'react-bootstrap/Container';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import CV from './pages/CV';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
-	const [currentPage, setCurrentPage] = useState('AboutMe');
-
-	const renderPage = () => {
-
-		switch (currentPage) {
-			case 'Portfolio':
-				return <Portfolio />;
-				break;
-			case 'Contact':
-				return <Contact />;
-				break;
-			case 'CV':
-				return <CV />;
-				break;
-			default:
-				return <AboutMe />;
-				break;
-		};
-	};
-  
-	const handlePageChange = (page) => setCurrentPage(page);
-
+	// TODO use State to set light and dark mode
 
 	return (
 		<Container>
-			<Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+			<Header />
 			<main>
-				{renderPage()}
+				<Routes>
+					<Route path='/' element={<AboutMe />} />
+					<Route path='/portfolio' element={<Portfolio />} />
+					<Route path='/cv' element={<CV />} />
+					<Route path='/contact' element={<Contact />} />
+				</Routes>
 			</main>
 			<Footer />
 		</Container>
