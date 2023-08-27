@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 
 export default function Footer() {
 	return (
-		<footer className='fixed-bottom'>
+		<footer className="fixed-bottom bg-body">
 			<Nav className="justify-content-center">
 				<Nav.Item>
 					<Nav.Link href="" target="_blank" disabled>

@@ -6,7 +6,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 export default function Navigation({ currentPage, handlePageChange }) {
 	return (
 		<Navbar>
-			<Nav justify variant='underline' className='w-100'> 
+			<Nav fill variant='underline' className='w-100'> 
 				<Nav.Item>
 					<LinkContainer to="/">
 						<Nav.Link>About Me</Nav.Link>

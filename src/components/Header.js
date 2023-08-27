@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 export default function Header() {
 	return (
 		<header>
-			<h1 className='pt-5'>
+			<h1 className='pt-5 text-center' >
 				Lilith Miller-Fermor
 			</h1>
 			<Navigation />
