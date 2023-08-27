@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default function Project() {
+export default function Project({id, title, repoLink, deployedLink, screenshot, alt}) {
     return (
-        <p>Project</p>  
+        <div key={id}>
+            <h4>{title}</h4>
+        </div>
     );
 }
