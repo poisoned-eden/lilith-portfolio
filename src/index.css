@@ -74,6 +74,12 @@ div.alert {
 	border-color: var(--theme-red);
 }
 
+.btn.download {
+	background-color: var(--theme-burgundy);
+	border-color: var(--theme-burgundy);
+	color: white;
+}
+
 footer {
 	background-color: var(--theme-light);
 }
