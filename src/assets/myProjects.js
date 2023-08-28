@@ -1,29 +1,39 @@
-import schuperImg from '../assets/images/schuper-duper-work-day-scheduler-screenshot-1.png';
-import visualVaultImg from '../assets/images/Screenshot-Visual-Vault.png';
 import picturesqueImg from '../assets/images/picturesque.png';
+import riddleImg from '../assets/images/riddle-me-this-code-quiz-screenshot-1-how-to-play.png';
+import schuperImg from '../assets/images/schuper-duper-work-day-scheduler-screenshot-1.png';
+import simpleImg from '../assets/images/simple-cms.gif';
+import somethingImg from '../assets/images/something-swift.gif';
+import visualVaultImg from '../assets/images/Screenshot-Visual-Vault.png';
+import writeMeImg from '../assets/images/writeme-readme.gif';
 
 export const myProjects = [
 	{
 		id: 1,
+		display: true,
+		featured: true,
 		title: 'something-swift-svg-logo-generator',
 		repoLink:
 			'https://github.com/poisoned-eden/something-swift-svg-logo-generator',
 		deployedLink: false,
-		screenshot: '',
+		screenshot: somethingImg,
 		description:
 			'A node.js command line interface that generates an SVG file that fits input requirements. This was created to practice object oriented programming, use of Classes within JS, and Jest Tests.',
 	},
 	{
 		id: 2,
+		display: false,
+		featured: false,
 		title: 'echo-social-network-api',
 		repoLink: 'https://github.com/poisoned-eden/echo-social-network-api',
 		deployedLink: false,
 		screenshot: '',
 		description:
-			'an API for creating users and their friends, and the users thoughts and reactions to them. Buildin using Express.js and MongoDB',
+			'an API for creating users and their friends, and the users thoughts and reactions to them. Built in using Express.js and MongoDB',
 	},
 	{
 		id: 3,
+		display: true,
+		featured: true,
 		title: 'schuper-duper-day-scheduler',
 		repoLink:
 			'https://github.com/poisoned-eden/schuper-duper-day-scheduler',
@@ -36,17 +46,21 @@ export const myProjects = [
 	},
 	{
 		id: 4,
+		display: true,
+		featured: true,
 		title: 'riddle-me-this-code-quiz',
 		repoLink: 'https://github.com/poisoned-eden/riddle-me-this-code-quiz',
 		deployedLink:
 			'https://poisoned-eden.github.io/riddle-me-this-code-quiz/',
-		screenshot: '',
+		screenshot: riddleImg,
 		alt: '',
 		description:
 			'A code quiz that runs in the browser and tests JavaScript knowledge. Created to test my JS skills in the quest to become a Coding Bootcamp Graduate. Practicing coding assessments will be useful for the job search after graduation too!',
 	},
 	{
 		id: 5,
+		display: true,
+		featured: true,
 		title: 'Visual-Vault',
 		repoLink: 'https://github.com/AMillsy/Visual-Vault',
 		deployedLink: 'https://visual-vault-70f24eab589d.herokuapp.com/',
@@ -57,6 +71,8 @@ export const myProjects = [
 	},
 	{
 		id: 6,
+		display: true,
+		featured: true,
 		title: 'picturesque',
 		repoLink: 'https://github.com/Robyn-Smith/The-Dev-Society',
 		deployedLink: 'https://robyn-smith.github.io/The-Dev-Society/',
@@ -65,4 +81,37 @@ export const myProjects = [
 		description:
 			'Golden Age Cinema themed website for discovering films and saving them to your watchlist.',
 	},
+	{
+		id: 7,
+		display: true,
+		featured: true,
+		title: 'Simple Employee Department CMS',
+		repoLink: 'https://github.com/poisoned-eden/simple-employee-department-cms',
+		deployedLink: false,
+		screenshot: simpleImg,
+		alt: 'A gif showing the Simple Employee Department CMS CLI in operation',
+		description: 'A simple CLI program to enable easy access to an employee database. You can view departments, roles, and employees, and see associated info. You can even update an employee\'s role! Built in JavaScript using node.js, dotenv, inquirer, and mysql2 to access the mysql data storage.',
+	},
+	{
+		id: 8,
+		display: true,
+		featured: true,
+		title: 'WriteMe ReadMe',
+		repoLink: 'https://github.com/poisoned-eden/writeme-readme',
+		deployedLink: false,
+		screenshot: writeMeImg,
+		alt: 'A gif showing the operation of the WriteMe ReadMe CLI',
+		description: 'A command-line interface program that generates a markdown formatted README with the users responses to questions.',
+	},	
+	{
+		id: 0,
+		display: false,
+		featured: false,
+		title: 'template',
+		repoLink: '',
+		deployedLink: '',
+		screenshot: '',
+		alt: '',
+		description: '',
+	},	
 ];

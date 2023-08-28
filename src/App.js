@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Header from './components/Header';
@@ -15,7 +15,7 @@ function App() {
 	return (
 		<Container>
 			<Header />
-			<main>
+			<main className='mb-5'>
 				<Routes>
 					<Route path='/' element={<AboutMe />} />
 					<Route path='/portfolio' element={<Portfolio />} />
