@@ -1,20 +1,26 @@
-import schuperImg from '../assets/images/schuper-duper-work-day-scheduler-screenshot-1.png';
-import visualVaultImg from '../assets/images/Screenshot-Visual-Vault.png';
 import picturesqueImg from '../assets/images/picturesque.png';
+import riddleImg from '../assets/images/riddle-me-this-code-quiz-screenshot-1-how-to-play.png';
+import schuperImg from '../assets/images/schuper-duper-work-day-scheduler-screenshot-1.png';
+import somethingImg from '../assets/images/something-swift.gif';
+import visualVaultImg from '../assets/images/Screenshot-Visual-Vault.png';
 
 export const myProjects = [
 	{
 		id: 1,
+		display: true,
+		featured: true,
 		title: 'something-swift-svg-logo-generator',
 		repoLink:
 			'https://github.com/poisoned-eden/something-swift-svg-logo-generator',
 		deployedLink: false,
-		screenshot: '',
+		screenshot: somethingImg,
 		description:
 			'A node.js command line interface that generates an SVG file that fits input requirements. This was created to practice object oriented programming, use of Classes within JS, and Jest Tests.',
 	},
 	{
 		id: 2,
+		display: false,
+		featured: false,
 		title: 'echo-social-network-api',
 		repoLink: 'https://github.com/poisoned-eden/echo-social-network-api',
 		deployedLink: false,
@@ -24,6 +30,8 @@ export const myProjects = [
 	},
 	{
 		id: 3,
+		display: true,
+		featured: true,
 		title: 'schuper-duper-day-scheduler',
 		repoLink:
 			'https://github.com/poisoned-eden/schuper-duper-day-scheduler',
@@ -36,17 +44,21 @@ export const myProjects = [
 	},
 	{
 		id: 4,
+		display: true,
+		featured: true,
 		title: 'riddle-me-this-code-quiz',
 		repoLink: 'https://github.com/poisoned-eden/riddle-me-this-code-quiz',
 		deployedLink:
 			'https://poisoned-eden.github.io/riddle-me-this-code-quiz/',
-		screenshot: '',
+		screenshot: riddleImg,
 		alt: '',
 		description:
 			'A code quiz that runs in the browser and tests JavaScript knowledge. Created to test my JS skills in the quest to become a Coding Bootcamp Graduate. Practicing coding assessments will be useful for the job search after graduation too!',
 	},
 	{
 		id: 5,
+		display: true,
+		featured: true,
 		title: 'Visual-Vault',
 		repoLink: 'https://github.com/AMillsy/Visual-Vault',
 		deployedLink: 'https://visual-vault-70f24eab589d.herokuapp.com/',
@@ -57,6 +69,8 @@ export const myProjects = [
 	},
 	{
 		id: 6,
+		display: true,
+		featured: true,
 		title: 'picturesque',
 		repoLink: 'https://github.com/Robyn-Smith/The-Dev-Society',
 		deployedLink: 'https://robyn-smith.github.io/The-Dev-Society/',
