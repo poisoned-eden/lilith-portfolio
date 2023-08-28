@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 
 export default function Footer() {
 	return (
-		<footer className="fixed-bottom bg-body">
+		<footer className="fixed-bottom">
 			<Nav className="justify-content-center">
 				<Nav.Item>
 					<Nav.Link href="" target="_blank" disabled>
@@ -19,11 +19,12 @@ export default function Footer() {
 						github
 					</Nav.Link>
 				</Nav.Item>
+				{/* TODO linkedin 
 				<Nav.Item>
 					<Nav.Link href="" target="_blank">
 						linkedin
 					</Nav.Link>
-				</Nav.Item>
+				</Nav.Item> */}
 			</Nav>
 		</footer>
 	);
