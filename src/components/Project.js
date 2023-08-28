@@ -12,7 +12,7 @@ export default function Project({
 	description,
 }) {
 	return (
-		<Card className="mt-5" key={id}>
+		<Card className="" key={id}>
 			<Card.Body>
 				<Card.Title>{title}</Card.Title>
 				<Card.Text>{description}</Card.Text>

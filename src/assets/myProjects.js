@@ -20,7 +20,7 @@ export const myProjects = [
 		deployedLink: false,
 		screenshot: '',
 		description:
-			'an API for creating users and their friends, and the users thoughts and reactions to them. Buildin using Express.js and MongoDB',
+			'an API for creating users and their friends, and the users thoughts and reactions to them. Built in using Express.js and MongoDB',
 	},
 	{
 		id: 3,
