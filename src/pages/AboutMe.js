@@ -7,8 +7,8 @@ import imgLil from '../assets/images/Lilith-profile-pic.jpg';
 
 export default function AboutMe() {
 	return (
-	<article id="about-me" className='pt-4'>
-		<div class="article-heading">
+	<article id="about-me" className=''>
+		<div className="article-heading mb-4">
 			<h2>About Me</h2>
 		</div>
 			<Row xs={1} lg={2}>
@@ -16,7 +16,7 @@ export default function AboutMe() {
 					<Image
 						src={imgLil}
 						alt="Photograph of Lilith engaged in conversation.  There is a castle in the background." 
-						className='w-100'
+						className='w-100 mb-4'
 						rounded
 					/>
 				</Col>
