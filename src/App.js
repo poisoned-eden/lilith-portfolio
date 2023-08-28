@@ -15,7 +15,7 @@ function App() {
 	return (
 		<Container>
 			<Header />
-			<main>
+			<main className='mb-5'>
 				<Routes>
 					<Route path='/' element={<AboutMe />} />
 					<Route path='/portfolio' element={<Portfolio />} />

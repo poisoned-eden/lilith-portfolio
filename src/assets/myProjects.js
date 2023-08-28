@@ -1,8 +1,10 @@
 import picturesqueImg from '../assets/images/picturesque.png';
 import riddleImg from '../assets/images/riddle-me-this-code-quiz-screenshot-1-how-to-play.png';
 import schuperImg from '../assets/images/schuper-duper-work-day-scheduler-screenshot-1.png';
+import simpleImg from '../assets/images/simple-cms.gif';
 import somethingImg from '../assets/images/something-swift.gif';
 import visualVaultImg from '../assets/images/Screenshot-Visual-Vault.png';
+import writeMeImg from '../assets/images/writeme-readme.gif';
 
 export const myProjects = [
 	{
@@ -79,4 +81,37 @@ export const myProjects = [
 		description:
 			'Golden Age Cinema themed website for discovering films and saving them to your watchlist.',
 	},
+	{
+		id: 7,
+		display: true,
+		featured: true,
+		title: 'Simple Employee Department CMS',
+		repoLink: 'https://github.com/poisoned-eden/simple-employee-department-cms',
+		deployedLink: false,
+		screenshot: simpleImg,
+		alt: 'A gif showing the Simple Employee Department CMS CLI in operation',
+		description: 'A simple CLI program to enable easy access to an employee database. You can view departments, roles, and employees, and see associated info. You can even update an employee\'s role! Built in JavaScript using node.js, dotenv, inquirer, and mysql2 to access the mysql data storage.',
+	},
+	{
+		id: 8,
+		display: true,
+		featured: true,
+		title: 'WriteMe ReadMe',
+		repoLink: 'https://github.com/poisoned-eden/writeme-readme',
+		deployedLink: false,
+		screenshot: writeMeImg,
+		alt: 'A gif showing the operation of the WriteMe ReadMe CLI',
+		description: 'A command-line interface program that generates a markdown formatted README with the users responses to questions.',
+	},	
+	{
+		id: 0,
+		display: false,
+		featured: false,
+		title: 'template',
+		repoLink: '',
+		deployedLink: '',
+		screenshot: '',
+		alt: '',
+		description: '',
+	},	
 ];
