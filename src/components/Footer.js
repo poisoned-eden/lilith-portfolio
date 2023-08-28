@@ -1,5 +1,4 @@
 import React from 'react';
-import MyGithub from './MyGithub';
 import Nav from 'react-bootstrap/Nav';
 
 export default function Footer() {
@@ -20,6 +19,12 @@ export default function Footer() {
 					</Nav.Link>
 				</Nav.Item>
 				{/* TODO linkedin 
+				<Nav.Item>
+					<Nav.Link href="" target="_blank">
+						linkedin
+					</Nav.Link>
+				</Nav.Item> */}
+				{/* TODO twitter profile 
 				<Nav.Item>
 					<Nav.Link href="" target="_blank">
 						linkedin
