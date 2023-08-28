@@ -7,9 +7,7 @@ import imgLil from '../assets/images/Lilith-profile-pic.jpg';
 export default function AboutMe() {
 	return (
 	<article id="about-me" className=''>
-		<div className="article-heading mb-4">
-			<h2>About Me</h2>
-		</div>
+			<h2 className='mb-4'>About Me</h2>
 			<Row xs={1} lg={2}>
 				<Col>
 					<Image

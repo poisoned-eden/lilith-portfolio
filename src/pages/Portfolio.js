@@ -7,7 +7,7 @@ import Project from '../components/Project';
 export default function Portfolio() {
 	return (
 		<article className=''>
-			<h3>Portfolio</h3>
+			<h2 className='mb-4'>Portfolio</h2>
 			<p>
 				Have a look at a few of my projects. More can be found on{' '}
 				<MyGithub text="my github" />

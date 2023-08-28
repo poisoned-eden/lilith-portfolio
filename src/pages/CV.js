@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 export default function CV() {
 	return (
 		<article>
-			<h3>Curriculum Vitae</h3>
+			<h2 className='mb-4'>Curriculum Vitae</h2>
 			<p>
 				My CV will be available soon. Please contact me if you'd like it
 				sent your way as soon as it's ready.

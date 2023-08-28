@@ -10,7 +10,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 export default function Contact() {
 	return (
 		<article id="contact-me">
-			<h2>Contact Me</h2>
+			<h2 className='mb-4'>Contact Me</h2>
 			<div>
 				<h3>Contact Details</h3>
 				<address>
