@@ -1,6 +1,5 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import MyGithub from '../components/MyGithub';
 import { myProjects } from '../assets/myProjects';
 import Project from '../components/Project';
@@ -15,9 +14,7 @@ export default function Portfolio() {
 			</p>
 			<Row sm={1} lg={2} xl={3} className='g-2'>
 				{myProjects.map((project) => (
-					<Col className=''>
-						<Project {...project} />
-					</Col>
+					<Project {...project} />
 				))}
 			</Row>
 		
