@@ -13,8 +13,8 @@ export default function Contact() {
 				<h3>Contact Details</h3>
 				<address>
 					<div>
-							<ButtonGroup role="button" aria-label='email address' className='pb-2'>
-								<Button href='mailto:hello@lilithmf.com' >
+							<ButtonGroup role="button" aria-label='email address' className='pb-2' >
+								<Button>
 									<EnvelopeAtIcon fill='#BA324F' />
 								</Button>
 								<Button href='mailto:hello@lilithmf.com' > hello@lilithmf.com </Button>
@@ -31,11 +31,11 @@ export default function Contact() {
 						</ButtonGroup>
 					</div>
 					<div>
-						<ButtonGroup role="button" aria-label='phone number' className='pb-2'>
-							<Button href='https://github.com/poisoned-eden' >
+						<ButtonGroup role="button" aria-label='github link' className='pb-2'>
+							<Button href='https://github.com/poisoned-eden' target='_blank'>
 								<GitHubIcon fill='#BA324F' />
 							</Button>
-							<Button href='https://github.com/poisoned-eden' >github.com/poisoned-eden</Button>
+							<Button href='https://github.com/poisoned-eden' target='_blank'>github.com/poisoned-eden</Button>
 							{/* TODO add copy button */}
 						</ButtonGroup>
 					</div>
