@@ -16,7 +16,7 @@ export default function Contact() {
 				<h3>Contact Details</h3>
 				<address>
 					<div>
-							<ButtonGroup role="button" aria-label='email address' className='w-100'>
+							<ButtonGroup role="button" aria-label='email address' className='pb-2'>
 								<Button href='mailto:hello@lilithmf.com'>
 									<img src={emailIcon} alt="Email Me" />
 								</Button>
@@ -25,7 +25,7 @@ export default function Contact() {
 							</ButtonGroup>
 					</div>
 					<div>
-						<ButtonGroup role="button" aria-label='phone number' className='w-100'>
+						<ButtonGroup role="button" aria-label='phone number' className='pb-2'>
 							<Button href='tel:+447557911251'>
 								<img src={phoneIcon} alt="Call Me" />
 							</Button>
@@ -34,7 +34,7 @@ export default function Contact() {
 						</ButtonGroup>
 					</div>
 					<div>
-						<ButtonGroup role="button" aria-label='phone number' className='w-100'>
+						<ButtonGroup role="button" aria-label='phone number' className='pb-2'>
 							<Button href='https://github.com/poisoned-eden'>
 								<img src={githubLogo} alt="Check out my GitHub profile" />
 							</Button>
@@ -42,20 +42,13 @@ export default function Contact() {
 							{/* TODO add copy button */}
 						</ButtonGroup>
 					</div>
-
-					<div>
-						<img src={githubLogo} alt="" />
-						<a href="https://github.com/poisoned-eden">
-							github.com/poisoned-eden
-						</a>
-					</div>
 				</address>
 			</div>
 			<div>
 				<h3>Send me a message</h3>
 				<Form>
 					<div class="alert alert-primary" role="alert">
-						This form is under construction.  In the meantime, it will create a custom mailto link that you can use to send me your entered message.
+						The server behind this form is under construction.  In the meantime, it will create a custom mailto link that you can use to send the message you enter below via email.
 					</div>
 					<fieldset disabled>
 						<Form.Group className="mb-3" controlId="formName">
