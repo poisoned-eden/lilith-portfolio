@@ -2,8 +2,7 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import githubLogo from '../assets/icons/github.svg';
-import arrowRightCircle from '../assets/icons/arrow-right-circle.svg';
+import { GitHubIcon, ArrowRightCircleIcon } from './Icons';
 
 export default function Project({
 	id,
@@ -25,14 +24,14 @@ export default function Project({
 							<Card.Title>{title}</Card.Title>
 							<Card.Text>{description}</Card.Text>
 							<ListGroup>
-									<ListGroup.Item href={repoLink} target="_blank" action variant='light' className='d-flex justify-content-between'>
+									<ListGroup.Item href={repoLink} target="_blank" action className='d-flex justify-content-between lil-theme'>
 										GitHub repository
-										<img src={githubLogo} alt="GitHub" className='' aria-hidden="true"></img>
+										<GitHubIcon fill='#BA324F' className='h-100 my-auto' />
 									</ListGroup.Item>
 									{deployedLink && (
 										<ListGroup.Item href={deployedLink} target="_blank" action variant='light' className='d-flex justify-content-between'>
 											Deployed project
-											<img src={arrowRightCircle} alt="Arrow" className='' aria-hidden="true"></img>
+											<ArrowRightCircleIcon fill='#BA324F' className='h-100 my-auto' />
 										</ListGroup.Item>
 									)}
 							</ListGroup>

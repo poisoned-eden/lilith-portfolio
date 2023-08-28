@@ -1,13 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-		'Helvetica Neue', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	--theme-light: #CCE6F4;
+	--theme-mid-blue: #4BA3C3;
+	--theme-dark-blue: #175676;
+	--theme-burgundy: #BA324F;
+	--theme-red: #D62839;
+	color: var(--theme-dark-blue);
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
+}
+
+
+.nav-link {
+	color: var(--theme-dark-blue);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+	color: var(--theme-burgundy);
+}
+.nav-underline .nav-link:focus, .nav-underline .nav-link:hover, .nav-link.active {
+	border-bottom-color: var(--theme-burgundy);
+	color: var(--theme-burgundy);
+}
+
+.card {
+	border-color: var(--theme-mid-blue);
+}
+
+.card .list-group-item {
+	border-color: var(--theme-light);
+	color: var(--theme-burgundy);
+}
+
+.card-body {
+	color: var(--theme-dark-blue);
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+    z-index: 1;
+    color: var(--theme-burgundy);
+    text-decoration: none;
+    background-color: var(--theme-light);
+}
+
+footer {
+	background-color: var(--theme-light);
 }

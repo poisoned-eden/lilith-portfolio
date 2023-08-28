@@ -1,7 +1,6 @@
 import React from 'react';
 // import downloadSVG from '../assets/icons/download.svg';
-import hourglassSVG from '../assets/icons/hourglass-split.svg';
-import Image from 'react-bootstrap/Image';
+import { HoursglassSplitIcon } from '../components/Icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -17,7 +16,7 @@ export default function CV() {
 			<Row>
 				<Col xs={{ span: 4, offset: 4}} className='d-flex align-items-center'>
 					
-					<Image src={hourglassSVG} fluid className='w-100'/>
+					<HoursglassSplitIcon className='w-100' fill='#BA324F' />
 					
 				</Col>
 			</Row>
