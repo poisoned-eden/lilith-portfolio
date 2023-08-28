@@ -1,7 +1,5 @@
 import React from 'react';
-import emailIcon from '../assets/icons/envelope-at.svg';
-import phoneIcon from '../assets/icons/telephone.svg';
-import githubLogo from '../assets/icons/github.svg';
+import { EnvelopeAtIcon, TelephoneIcon, GitHubIcon } from '../components/Icons';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
@@ -16,28 +14,28 @@ export default function Contact() {
 				<address>
 					<div>
 							<ButtonGroup role="button" aria-label='email address' className='pb-2'>
-								<Button href='mailto:hello@lilithmf.com' variant='light'>
-									<img src={emailIcon} alt="Email Me" />
+								<Button href='mailto:hello@lilithmf.com' >
+									<EnvelopeAtIcon fill='#BA324F' />
 								</Button>
-								<Button href='mailto:hello@lilithmf.com' variant='light'> hello@lilithmf.com </Button>
+								<Button href='mailto:hello@lilithmf.com' > hello@lilithmf.com </Button>
 								{/* TODO add copy button */}
 							</ButtonGroup>
 					</div>
 					<div>
 						<ButtonGroup role="button" aria-label='phone number' className='pb-2' >
-							<Button href='tel:+447557911251' variant='light'>
-								<img src={phoneIcon} alt="Call Me" />
+							<Button href='tel:+447557911251' >
+								<TelephoneIcon fill='#BA324F' />
 							</Button>
-							<Button href='tel:+447557911251'variant='light' > +44 7557 911 251</Button>
+							<Button href='tel:+447557911251' > +44 7557 911 251</Button>
 							{/* TODO add copy button */}
 						</ButtonGroup>
 					</div>
 					<div>
 						<ButtonGroup role="button" aria-label='phone number' className='pb-2'>
-							<Button href='https://github.com/poisoned-eden' variant='light'>
-								<img src={githubLogo} alt="Check out my GitHub profile" />
+							<Button href='https://github.com/poisoned-eden' >
+								<GitHubIcon fill='#BA324F' />
 							</Button>
-							<Button href='https://github.com/poisoned-eden' variant='light'>github.com/poisoned-eden</Button>
+							<Button href='https://github.com/poisoned-eden' >github.com/poisoned-eden</Button>
 							{/* TODO add copy button */}
 						</ButtonGroup>
 					</div>
@@ -46,7 +44,7 @@ export default function Contact() {
 			<div>
 				<h3>Send me a message</h3>
 				<Form>
-					<div class="alert alert-primary" role="alert">
+					<div class="alert" role="alert">
 						The server behind this form is under construction.  In the meantime, it will create a custom mailto link that you can use to send the message you enter below via email.
 					</div>
 					<fieldset disabled>

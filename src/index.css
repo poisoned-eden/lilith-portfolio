@@ -53,6 +53,16 @@ code {
     background-color: var(--theme-light);
 }
 
+a.btn {
+	background-color: var(--theme-light);
+	border-color: var(--theme-light);
+	color: var(--theme-burgundy)
+}
+
+div.alert {
+	border-color: var(--theme-red);
+}
+
 footer {
 	background-color: var(--theme-light);
 }
