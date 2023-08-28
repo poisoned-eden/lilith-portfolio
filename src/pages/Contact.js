@@ -3,7 +3,6 @@ import emailIcon from '../assets/icons/envelope-at.svg';
 import phoneIcon from '../assets/icons/telephone.svg';
 import githubLogo from '../assets/icons/github.svg';
 import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
@@ -17,28 +16,28 @@ export default function Contact() {
 				<address>
 					<div>
 							<ButtonGroup role="button" aria-label='email address' className='pb-2'>
-								<Button href='mailto:hello@lilithmf.com'>
+								<Button href='mailto:hello@lilithmf.com' variant='light'>
 									<img src={emailIcon} alt="Email Me" />
 								</Button>
-								<Button href='mailto:hello@lilithmf.com'> hello@lilithmf.com </Button>
+								<Button href='mailto:hello@lilithmf.com' variant='light'> hello@lilithmf.com </Button>
 								{/* TODO add copy button */}
 							</ButtonGroup>
 					</div>
 					<div>
-						<ButtonGroup role="button" aria-label='phone number' className='pb-2'>
-							<Button href='tel:+447557911251'>
+						<ButtonGroup role="button" aria-label='phone number' className='pb-2' >
+							<Button href='tel:+447557911251' variant='light'>
 								<img src={phoneIcon} alt="Call Me" />
 							</Button>
-							<Button href='tel:+447557911251'> +44 7557 911 251</Button>
+							<Button href='tel:+447557911251'variant='light' > +44 7557 911 251</Button>
 							{/* TODO add copy button */}
 						</ButtonGroup>
 					</div>
 					<div>
 						<ButtonGroup role="button" aria-label='phone number' className='pb-2'>
-							<Button href='https://github.com/poisoned-eden'>
+							<Button href='https://github.com/poisoned-eden' variant='light'>
 								<img src={githubLogo} alt="Check out my GitHub profile" />
 							</Button>
-							<Button href='https://github.com/poisoned-eden'>github.com/poisoned-eden</Button>
+							<Button href='https://github.com/poisoned-eden' variant='light'>github.com/poisoned-eden</Button>
 							{/* TODO add copy button */}
 						</ButtonGroup>
 					</div>
@@ -58,14 +57,14 @@ export default function Contact() {
 								placeholder="Please enter your name."
 							/>
 						</Form.Group>
-						<Form.Group>
+						<Form.Group className="mb-3">
 							<Form.Label>Email</Form.Label>
 							<Form.Control
 								type="email"
 								placeholder="Please enter your email address."
 							/>
 						</Form.Group>
-						<Form.Group>
+						<Form.Group className="mb-3">
 							<Form.Label>Message</Form.Label>
 							<Form.Control
 								as="textarea"
@@ -73,6 +72,7 @@ export default function Contact() {
 								placeholder="Please enter the message you wish to send."
 							/>
 						</Form.Group>
+						<Button>Send Message</Button>
 					</fieldset>
 				</Form>
 			</div>
