@@ -17,19 +17,17 @@ export default function Footer() {
 					>
 						github
 					</Nav.Link>
+				</Nav.Item> 
+				<Nav.Item>
+					<Nav.Link href="https://www.linkedin.com/in/lilith-miller-fermor/" target="_blank">
+						linkedin
+					</Nav.Link>
 				</Nav.Item>
-				{/* TODO linkedin 
 				<Nav.Item>
-					<Nav.Link href="" target="_blank">
-						linkedin
+					<Nav.Link href="https://twitter.com/LilithMFDev" target="_blank">
+						twitter
 					</Nav.Link>
-				</Nav.Item> */}
-				{/* TODO twitter profile 
-				<Nav.Item>
-					<Nav.Link href="" target="_blank">
-						linkedin
-					</Nav.Link>
-				</Nav.Item> */}
+				</Nav.Item>
 			</Nav>
 		</footer>
 	);
