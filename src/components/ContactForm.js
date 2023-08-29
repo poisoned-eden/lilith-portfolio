@@ -12,6 +12,7 @@ export default function ContactForm() {
         const { id, value } = e.target;
 
         setData({ ...data, [id]: value });
+        console.log(data);
     }
 
     const handleFormSubmit = (e) => {
@@ -19,6 +20,11 @@ export default function ContactForm() {
 
         alert('Thank you for sending a message.');
         setData(formData);
+        console.log(data);
+    }
+
+    const handleInputLoseFocus = (e) => {
+        e.target.reportValidity();
     }
 	return (
 		<Form onSubmit={handleFormSubmit}>
@@ -37,6 +43,8 @@ export default function ContactForm() {
 						placeholder="Please enter your name."
                         value={data.userName}
                         onChange={handleInputChange}
+                        onBlur={handleInputLoseFocus}
+                        required
 					/>
 				</Form.Group>
 				<Form.Group className="mb-3">
@@ -47,6 +55,8 @@ export default function ContactForm() {
 						placeholder="Please enter your email address."
                         value={data.userEmail}
                         onChange={handleInputChange}
+                        onBlur={handleInputLoseFocus}
+                        required
 					/>
 				</Form.Group>
 				<Form.Group className="mb-3">
@@ -58,6 +68,8 @@ export default function ContactForm() {
                         id="userMessage"
                         value={data.userMessage}
                         onChange={handleInputChange}
+                        onBlur={handleInputLoseFocus}
+                        required
 					/>
 				</Form.Group>
 				<Button type='submit'>
