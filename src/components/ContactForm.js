@@ -17,6 +17,7 @@ export default function ContactForm() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
+        window.location.href = `mailto:hello@lilithmf.com?subject=Message from ${data.userName}&body=${data.userMessage} \n \n from ${data.userEmail}`;
 
         alert('Thank you for sending a message.');
         setData(formData);
