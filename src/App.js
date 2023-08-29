@@ -17,10 +17,10 @@ function App() {
 			<Header />
 			<main className='mb-5'>
 				<Routes>
-					<Route path='/' element={<AboutMe />} />
-					<Route path='/portfolio' element={<Portfolio />} />
-					<Route path='/cv' element={<CV />} />
-					<Route path='/contact' element={<Contact />} />
+					<Route path='./' element={<AboutMe />} />
+					<Route path='./portfolio' element={<Portfolio />} />
+					<Route path='./cv' element={<CV />} />
+					<Route path='./contact' element={<Contact />} />
 				</Routes>
 			</main>
 			<Footer />
