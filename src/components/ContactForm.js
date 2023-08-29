@@ -21,26 +21,32 @@ export default function ContactForm() {
         setData(formData);
     }
 	return (
-		<Form>
+		<Form onSubmit={handleFormSubmit}>
 			<div class="alert" role="alert">
 				The server behind this form is under construction, so it will
 				not send a message in the normal way. In the meantime, it will
 				create a custom mailto link that you can use to send the message
 				you enter below via email.
 			</div>
-			<fieldset disabled>
+			<fieldset>
 				<Form.Group className="mb-3" controlId="formName">
 					<Form.Label>Name</Form.Label>
 					<Form.Control
 						type="text"
+                        id="userName"
 						placeholder="Please enter your name."
+                        value={data.userName}
+                        onChange={handleInputChange}
 					/>
 				</Form.Group>
 				<Form.Group className="mb-3">
 					<Form.Label>Email</Form.Label>
 					<Form.Control
 						type="email"
+                        id="userEmail"
 						placeholder="Please enter your email address."
+                        value={data.userEmail}
+                        onChange={handleInputChange}
 					/>
 				</Form.Group>
 				<Form.Group className="mb-3">
@@ -49,9 +55,14 @@ export default function ContactForm() {
 						as="textarea"
 						rows={3}
 						placeholder="Please enter the message you wish to send."
+                        id="userMessage"
+                        value={data.userMessage}
+                        onChange={handleInputChange}
 					/>
 				</Form.Group>
-				<Button>Send Message</Button>
+				<Button type='submit'>
+                    Send Message
+                </Button>
 			</fieldset>
 		</Form>
 	);
