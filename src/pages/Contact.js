@@ -1,8 +1,8 @@
 import React from 'react';
 import { EnvelopeAtIcon, TelephoneIcon, GitHubIcon } from '../components/Icons';
-import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import ContactForm from '../components/ContactForm';
 
 
 export default function Contact() {
@@ -43,36 +43,7 @@ export default function Contact() {
 			</div>
 			<div>
 				<h3>Send me a message</h3>
-				<Form>
-					<div class="alert" role="alert">
-						The server behind this form is under construction.  In the meantime, it will create a custom mailto link that you can use to send the message you enter below via email.
-					</div>
-					<fieldset disabled>
-						<Form.Group className="mb-3" controlId="formName">
-							<Form.Label>Name</Form.Label>
-							<Form.Control
-								type="text"
-								placeholder="Please enter your name."
-							/>
-						</Form.Group>
-						<Form.Group className="mb-3">
-							<Form.Label>Email</Form.Label>
-							<Form.Control
-								type="email"
-								placeholder="Please enter your email address."
-							/>
-						</Form.Group>
-						<Form.Group className="mb-3">
-							<Form.Label>Message</Form.Label>
-							<Form.Control
-								as="textarea"
-								rows={3}
-								placeholder="Please enter the message you wish to send."
-							/>
-						</Form.Group>
-						<Button>Send Message</Button>
-					</fieldset>
-				</Form>
+				<ContactForm />
 			</div>
 		</article>
 	);
