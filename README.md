@@ -4,7 +4,9 @@
 
 ## Description
 
-My web developer portfolio, created in React.  In order to show potential employers and clients what I am capable of, my portfolio needs to showcase my skills. I'm enjoying digging deeper into what React is capable of. 
+My web developer portfolio, created in React.  In order to show potential employers and clients what I am capable of, my portfolio needs to showcase my skills. I'm enjoying digging deeper into what React is capable of.  
+
+I plan to update this as time goes on.
 
 
 ## Usage

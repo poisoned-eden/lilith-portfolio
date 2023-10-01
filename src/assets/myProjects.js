@@ -1,3 +1,4 @@
+import medimateImg from '../assets/images/medimate-screenshot.png'
 import picturesqueImg from '../assets/images/picturesque.png';
 import riddleImg from '../assets/images/riddle-me-this-code-quiz-screenshot-1-how-to-play.png';
 import schuperImg from '../assets/images/schuper-duper-work-day-scheduler-screenshot-1.png';
@@ -7,6 +8,18 @@ import visualVaultImg from '../assets/images/Screenshot-Visual-Vault.png';
 import writeMeImg from '../assets/images/writeme-readme.gif';
 
 export const myProjects = [
+	{
+		id: 0,
+		display: true,
+		featured: true,
+		title: 'MediMate Medication Tracker',
+		repoLink:
+			'https://github.com/poisoned-eden/programmers-unleashed',
+		deployedLink: 'https://medimate-initial-7cd2360e6da5.herokuapp.com/signup',
+		screenshot: medimateImg,
+		description:
+			`An easy-to-use progressive web app that allows the user to add different medications, track when they've taken them, and receive reminders when the next dose is due.`,
+	},
 	{
 		id: 1,
 		display: true,
