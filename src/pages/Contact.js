@@ -17,7 +17,7 @@ export default function Contact() {
 								<Button>
 									<EnvelopeAtIcon fill='#BA324F' />
 								</Button>
-								<Button href='mailto:hello@lilithmf.com' > hello@lilithmf.com </Button>
+								<Button href='mailto:dev@lilithmf.com' > dev@lilithmf.com </Button>
 								{/* TODO add copy button */}
 							</ButtonGroup>
 					</div>
