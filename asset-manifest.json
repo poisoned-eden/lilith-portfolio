@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/lilith-portfolio/static/css/main.40a4ca55.css",
-    "main.js": "/lilith-portfolio/static/js/main.a4e07b67.js",
-    "static/js/787.908a7762.chunk.js": "/lilith-portfolio/static/js/787.908a7762.chunk.js",
-    "static/media/simple-cms.gif": "/lilith-portfolio/static/media/simple-cms.75720c9d636dfa173dd3.gif",
-    "static/media/something-swift.gif": "/lilith-portfolio/static/media/something-swift.333ebf807fd2acf166e7.gif",
-    "static/media/writeme-readme.gif": "/lilith-portfolio/static/media/writeme-readme.eadaf182209104990cb0.gif",
-    "static/media/Screenshot-Visual-Vault.png": "/lilith-portfolio/static/media/Screenshot-Visual-Vault.a3bfdbf3a842b820da59.png",
-    "static/media/picturesque.png": "/lilith-portfolio/static/media/picturesque.d080b90c6a891c3d789e.png",
-    "static/media/Lilith-profile-pic.jpg": "/lilith-portfolio/static/media/Lilith-profile-pic.b7459aae9041b5ec7e64.jpg",
-    "static/media/schuper-duper-work-day-scheduler-screenshot-1.png": "/lilith-portfolio/static/media/schuper-duper-work-day-scheduler-screenshot-1.7e92804a5ecaf920c004.png",
-    "static/media/riddle-me-this-code-quiz-screenshot-1-how-to-play.png": "/lilith-portfolio/static/media/riddle-me-this-code-quiz-screenshot-1-how-to-play.422639f2f46a07e98d91.png",
-    "static/media/Lilith_Miller-Fermor_-_CV.pdf": "/lilith-portfolio/static/media/Lilith_Miller-Fermor_-_CV.cc9a91d978c998bc237b.pdf",
-    "index.html": "/lilith-portfolio/index.html",
-    "main.40a4ca55.css.map": "/lilith-portfolio/static/css/main.40a4ca55.css.map",
-    "main.a4e07b67.js.map": "/lilith-portfolio/static/js/main.a4e07b67.js.map",
-    "787.908a7762.chunk.js.map": "/lilith-portfolio/static/js/787.908a7762.chunk.js.map"
+    "main.css": "/static/css/main.40a4ca55.css",
+    "main.js": "/static/js/main.f972aedd.js",
+    "static/js/787.908a7762.chunk.js": "/static/js/787.908a7762.chunk.js",
+    "static/media/simple-cms.gif": "/static/media/simple-cms.75720c9d636dfa173dd3.gif",
+    "static/media/something-swift.gif": "/static/media/something-swift.333ebf807fd2acf166e7.gif",
+    "static/media/writeme-readme.gif": "/static/media/writeme-readme.eadaf182209104990cb0.gif",
+    "static/media/Screenshot-Visual-Vault.png": "/static/media/Screenshot-Visual-Vault.a3bfdbf3a842b820da59.png",
+    "static/media/picturesque.png": "/static/media/picturesque.d080b90c6a891c3d789e.png",
+    "static/media/medimate-screenshot.png": "/static/media/medimate-screenshot.22d306e810f54677f724.png",
+    "static/media/Lilith-profile-pic.jpg": "/static/media/Lilith-profile-pic.b7459aae9041b5ec7e64.jpg",
+    "static/media/schuper-duper-work-day-scheduler-screenshot-1.png": "/static/media/schuper-duper-work-day-scheduler-screenshot-1.7e92804a5ecaf920c004.png",
+    "static/media/riddle-me-this-code-quiz-screenshot-1-how-to-play.png": "/static/media/riddle-me-this-code-quiz-screenshot-1-how-to-play.422639f2f46a07e98d91.png",
+    "static/media/Lilith_Miller-Fermor_-_CV.pdf": "/static/media/Lilith_Miller-Fermor_-_CV.cc9a91d978c998bc237b.pdf",
+    "index.html": "/index.html",
+    "main.40a4ca55.css.map": "/static/css/main.40a4ca55.css.map",
+    "main.f972aedd.js.map": "/static/js/main.f972aedd.js.map",
+    "787.908a7762.chunk.js.map": "/static/js/787.908a7762.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40a4ca55.css",
-    "static/js/main.a4e07b67.js"
+    "static/js/main.f972aedd.js"
   ]
 }
