@@ -3,7 +3,7 @@ import { DownloadIcon } from '../components/Icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import cvPDF from '../assets/Lilith_Miller-Fermor_-_CV.pdf';
+import cvPDF from '../assets/Lilith Miller-Fermor Full Stack Web Developer CV 6-10-23.pdf';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 export default function CV() {
