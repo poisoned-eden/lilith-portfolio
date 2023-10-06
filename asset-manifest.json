@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.40a4ca55.css",
-    "main.js": "/static/js/main.3514faf9.js",
+    "main.js": "/static/js/main.2d7994cc.js",
     "static/js/787.908a7762.chunk.js": "/static/js/787.908a7762.chunk.js",
     "static/media/simple-cms.gif": "/static/media/simple-cms.75720c9d636dfa173dd3.gif",
     "static/media/something-swift.gif": "/static/media/something-swift.333ebf807fd2acf166e7.gif",
@@ -11,15 +11,15 @@
     "static/media/medimate-screenshot.png": "/static/media/medimate-screenshot.22d306e810f54677f724.png",
     "static/media/Lilith-profile-pic.jpg": "/static/media/Lilith-profile-pic.b7459aae9041b5ec7e64.jpg",
     "static/media/schuper-duper-work-day-scheduler-screenshot-1.png": "/static/media/schuper-duper-work-day-scheduler-screenshot-1.7e92804a5ecaf920c004.png",
+    "static/media/Lilith Miller-Fermor Full Stack Web Developer CV 6-10-23.pdf": "/static/media/Lilith Miller-Fermor Full Stack Web Developer CV 6-10-23.f688543fec596d0435ae.pdf",
     "static/media/riddle-me-this-code-quiz-screenshot-1-how-to-play.png": "/static/media/riddle-me-this-code-quiz-screenshot-1-how-to-play.422639f2f46a07e98d91.png",
-    "static/media/Lilith_Miller-Fermor_-_CV.pdf": "/static/media/Lilith_Miller-Fermor_-_CV.cc9a91d978c998bc237b.pdf",
     "index.html": "/index.html",
     "main.40a4ca55.css.map": "/static/css/main.40a4ca55.css.map",
-    "main.3514faf9.js.map": "/static/js/main.3514faf9.js.map",
+    "main.2d7994cc.js.map": "/static/js/main.2d7994cc.js.map",
     "787.908a7762.chunk.js.map": "/static/js/787.908a7762.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40a4ca55.css",
-    "static/js/main.3514faf9.js"
+    "static/js/main.2d7994cc.js"
   ]
 }
